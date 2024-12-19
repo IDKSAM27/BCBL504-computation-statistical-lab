@@ -17,4 +17,4 @@ def calculate_statistics(data, frequencies):
 
     mode = df['Value'][df['Frequency'].idxmax()]
 
-    variance = np.average
+    variance = np.averag
