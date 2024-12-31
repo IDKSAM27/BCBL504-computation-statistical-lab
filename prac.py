@@ -1,1 +1,6 @@
-# lab 1 n 2 to be done on 31st dec
+import pandas as pd
+import numpy as np
+
+sales_data_1 = pd.DataFrame({
+    'OrderID':
+})
