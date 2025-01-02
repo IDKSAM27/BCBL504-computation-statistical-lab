@@ -39,6 +39,8 @@ plt.show()
 # Print key insights
 print("Linear Discriminant Analysis (LDA) Results")
 print("--------------------------------------------------")
+
 print("Explained Variance Ratio by LDA Components:")
 for i, ratio in enumerate(lda.explained_variance_ratio_, start=1):
     print(f"  LDA{i}: {ratio:.4f}")
+
