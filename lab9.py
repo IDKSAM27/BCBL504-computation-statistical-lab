@@ -1,5 +1,6 @@
 # Program to implement correlation, rank correlation and regression and plot x-y plot and heat maps of correlation matrices.
 
+
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -54,3 +55,4 @@ plt.title('Heatmap of Correlation Matrix')
 plt.show()
 
 # Note: To use this script with a custom dataset, replace the sample data generation section with loading your dataset using pandas (e.g., pd.read_csv).
+
