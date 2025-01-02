@@ -1,3 +1,4 @@
+# This dataset contains data of all the blocks of California state
 # Import necessary libraries
 import numpy as np
 import pandas as pd
