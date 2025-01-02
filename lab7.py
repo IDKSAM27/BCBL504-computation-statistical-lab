@@ -1,3 +1,4 @@
+# If u know basic python, this program would be easy
 import numpy as np 
 import pandas as pd 
 from scipy import stats 
