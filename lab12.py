@@ -54,3 +54,5 @@ plt.show()
 sns.pairplot(pd.DataFrame(data.data, columns=data.feature_names), diag_kind='kde')
 plt.suptitle('Pairplot of Iris Dataset Features', y=1.02)
 plt.show()
+
+
