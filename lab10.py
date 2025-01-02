@@ -1,5 +1,7 @@
 # Program to implement PCA for Wisconsin dataset, visualize and analyse the results.
 
+# Wisconsin dataset contains data about breast cancer
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -70,3 +72,4 @@ print(f"Explained Variance (PCA2): {explained_variance_ratio[1]:.4f}")
 print("Cumulative Variance Explained by All Components:")
 for i, cum_var in enumerate(cumulative_variance, start=1):
     print(f"  Component {i}: {cum_var:.4f}")
+
