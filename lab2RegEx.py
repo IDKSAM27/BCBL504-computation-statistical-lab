@@ -31,5 +31,3 @@ print(vowel_words)
 masked_text = re.sub(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b", "[email protected]", clean_text)
 print("\nText after replacing emails:")
 print(masked_text)
-# I learn more about RE, until then proceed with next lab
-
