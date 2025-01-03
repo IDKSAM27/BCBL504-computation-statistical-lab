@@ -1,7 +1,5 @@
 #Program to display Normal, Binomial Poisson, Bernoulli disrtibutions for a given frequency distribution
 
-# Sem 3-4 concept 
-
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm, binom, poisson, bernoulli
@@ -87,5 +85,3 @@ def analyze_distributions(data, frequencies):
 # Main program
 data, frequencies = get_user_data()
 analyze_distributions(data, frequencies)
-
-
