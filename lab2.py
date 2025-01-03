@@ -41,5 +41,3 @@ print(f"\nDoes the text start with 'Hello'? {starts_with_hello}")
 # 10. Check if the text ends with a specific word (e.g., "programming.")
 ends_with_programming = clean_text.endswith("programming.")
 print(f"\nDoes the text end with 'programming.'? {ends_with_programming}")
-
-
