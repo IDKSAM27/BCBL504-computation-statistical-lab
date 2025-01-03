@@ -1,7 +1,5 @@
 # program to implement one way and two way ANOVA test and anlyze the results
 
-# Concept of 3rd-4th sem
-
 import numpy as np
 import pandas as pd
 from scipy.stats import f_oneway
@@ -68,5 +66,3 @@ if __name__ == "__main__":
 
     # Perform Two-way ANOVA
     two_way_anova(data_two_way, response="Response", factor1="Factor1", factor2="Factor2")
-
-
